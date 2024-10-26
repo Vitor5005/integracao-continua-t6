@@ -8,6 +8,7 @@ on:
         paths:
             - 'sgcmapi/**'
 
+
 jobs:
     main:
         name: CI Workflow Main

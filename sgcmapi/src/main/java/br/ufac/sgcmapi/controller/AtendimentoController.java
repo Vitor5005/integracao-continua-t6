@@ -25,8 +25,9 @@ public class AtendimentoController implements ICrudController<Atendimento> {
 
     public AtendimentoController(AtendimentoService servico) {
         this.servico = servico;
-    }
+    } 
 
+    
     @Override
     @GetMapping("/consultar")
     public ResponseEntity<List<Atendimento>> get(@RequestParam(required = false) String termoBusca) {

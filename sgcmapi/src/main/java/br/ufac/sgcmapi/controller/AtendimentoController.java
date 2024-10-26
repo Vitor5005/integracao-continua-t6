@@ -25,7 +25,7 @@ public class AtendimentoController implements ICrudController<Atendimento> {
 
     public AtendimentoController(AtendimentoService servico) {
         this.servico = servico;
-    }
+    } 
 
     @Override
     @GetMapping("/consultar")
